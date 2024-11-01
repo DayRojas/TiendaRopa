@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Tienda Ropa</string>
+
+    <string name="categoria">Por favor escoja la categoria de su interés:</string>
+    <string name="btn_hombre">Hombre</string>
+    <string name="btn_mujer">Mujer</string>
+    <string name="btn_niño">Niño</string>
+    <string name="btn_regresar">Regresar</string>
+
+    <string name="nombre1">Chaqueta Totto</string>
+    <string name="precio1">$299.999</string>
+    <string name="nombre2">Buzo Adidas</string>
+    <string name="precio2">$155.999</string>
+    <string name="nombre3">Zapatillas Nike</string>
+    <string name="precio3">$399.999</string>
+    <string name="nombre4">Camiseta H Y M</string>
+    <string name="precio4">$80.999</string>
+    <string name="nombre5">Sudadera H Y M</string>
+    <string name="precio5">$99.999</string>
+
+
+    <string name="Nombre1">Bikini</string>
+    <string name="Precio1">$39.999</string>
+    <string name="Nombre2">Camiseta Nike</string>
+    <string name="Precio2">$119.999</string>
+    <string name="Nombre3">Chaqueta Adidas</string>
+    <string name="Precio3">$229.999</string>
+    <string name="Nombre4">Pantalón H Y M</string>
+    <string name="Precio4">$69.999</string>
+    <string name="Nombre5">Zapatillas Adidas</string>
+    <string name="Precio5">$399.999</string>
+
+    <string name="nombree1">Bermuda</string>
+    <string name="precioo1">$39.999</string>
+    <string name="nombree2">Zapatos Nike</string>
+    <string name="precioo2">$155.999</string>
+    <string name="nombree3">Buzo Hoddi</string>
+    <string name="precioo3">$49.999</string>
+    <string name="nombree4">Conjunto cocodrilo</string>
+    <string name="precioo4">$79.999</string>
+    <string name="nombree5">Pijama</string>
+    <string name="precioo5">$89.999</string>
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Clothing Store</string>
+
+    <string name="categoria">Please choose the category of your interest:</string>
+    <string name="btn_hombre">Men</string>
+    <string name="btn_mujer">Women</string>
+    <string name="btn_niño">Children</string>
+
+    <string name="nombre1">Totto jacket</string>
+    <string name="precio1">$299.999</string>
+    <string name="nombre2">Adidas diver</string>
+    <string name="precio2">$155.999</string>
+    <string name="nombre3">Nike shoes</string>
+    <string name="precio3">$399.999</string>
+    <string name="nombre4">H Y M t-shirt</string>
+    <string name="precio4">$80.999</string>
+    <string name="nombre5">H Y M hoodie</string>
+    <string name="precio5">$99.999</string>
+    <string name="btn_regresar">Back</string>
+
+    <string name="Nombre1">Bikini</string>
+    <string name="Precio1">$39.999</string>
+    <string name="Nombre2">Nike t-shirt</string>
+    <string name="Precio2">$119.999</string>
+    <string name="Nombre3">Adidas jacket</string>
+    <string name="Precio3">$229.999</string>
+    <string name="Nombre4">H Y M pants</string>
+    <string name="Precio4">$69.999</string>
+    <string name="Nombre5">Adidas shoes</string>
+    <string name="Precio5">$399.999</string>
+
+
+    <string name="nombree1">Bermuda</string>
+    <string name="precioo1">$39.999</string>
+    <string name="nombree2">Nike Shoes</string>
+    <string name="precioo2">$155.999</string>
+    <string name="nombree3">Hoddi diver</string>
+    <string name="precioo3">$49.999</string>
+    <string name="nombree4">Crocodile set</string>
+    <string name="precioo4">$79.999</string>
+    <string name="nombree5">Pijama</string>
+    <string name="precioo5">$89.999</string>
+
+</resources>

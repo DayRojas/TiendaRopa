@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/Nombre1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text= "@string/Nombre1" />
+    <TextView
+        android:id="@+id/Precio1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text= "@string/Precio1"
+        android:layout_below="@id/Nombre1"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="180dp"
+        android:layout_height="257dp"
+        android:src="@drawable/bikinimujer"
+        tools:layout_editor_absoluteY="17dp"
+        android:layout_below="@id/Precio1"/>
+
+    <TextView
+        android:id="@+id/Nombre2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text= "@string/Nombre2"
+        android:layout_below="@id/imageView"/>
+    <TextView
+        android:id="@+id/Precio2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text= "@string/Precio2"
+        android:layout_below="@id/Nombre2"/>
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="202dp"
+        android:layout_height="199dp"
+        android:src="@drawable/camisetanikemujer"
+        tools:layout_editor_absoluteX="180dp"
+        tools:layout_editor_absoluteY="40dp"
+        android:layout_below="@id/Precio2"/>
+
+    <TextView
+        android:id="@+id/Nombre3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text= "@string/Nombre3"
+        android:layout_below="@id/imageView2"/>
+    <TextView
+        android:id="@+id/Precio3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text= "@string/Precio3"
+        android:layout_below="@id/Nombre3"/>
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="205dp"
+        android:layout_height="216dp"
+        android:src="@drawable/chaquetaadidasmujer"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="288dp"
+        android:layout_below="@id/Precio3"/>
+
+
+    <TextView
+        android:id="@+id/Nombre4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text= "@string/Nombre4"
+        android:layout_below="@id/imageView8"/>
+    <TextView
+        android:id="@+id/Precio4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text= "@string/Precio4"
+        android:layout_below="@id/Nombre4"/>
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pantalonmujer"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="263dp"
+        android:layout_below="@id/Precio4"/>
+
+    <TextView
+        android:id="@+id/Nombre5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text= "@string/Nombre5"
+        android:layout_below="@id/imageView9"/>
+    <TextView
+        android:id="@+id/Precio5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text= "@string/Precio5"
+        android:layout_below="@id/Nombre5"/>
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="213dp"
+        android:layout_height="208dp"
+        android:src="@drawable/zapatillasadidasmujer"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="521dp"
+        android:layout_below="@id/Precio5"/>
+
+        <Button
+            android:id="@+id/btn_regresar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView7"
+            android:layout_marginTop="16dp"
+            android:onClick="regresar"
+            android:text="@string/btn_regresar"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/nombre1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text= "@string/nombre1" />
+    <TextView
+        android:id="@+id/precio1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text= "@string/precio1"
+        android:layout_below="@id/nombre1"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="200dp"
+        android:layout_height="199dp"
+        android:src="@drawable/chaquetatottohombre"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="275dp"
+        android:layout_below="@id/precio1"/>
+
+    <TextView
+        android:id="@+id/nombre2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text= "@string/nombre2"
+        android:layout_below="@id/imageView3"/>
+    <TextView
+        android:id="@+id/precio2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text= "@string/precio2"
+        android:layout_below="@id/nombre2"/>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="185dp"
+        android:layout_height="218dp"
+        android:src="@drawable/buzoadidashombre"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="33dp"
+        android:layout_below="@id/precio2"/>
+
+    <TextView
+        android:id="@+id/nombre3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text= "@string/nombre3"
+        android:layout_below="@id/imageView4"/>
+    <TextView
+        android:id="@+id/precio3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text= "@string/precio3"
+        android:layout_below="@id/nombre3"/>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="201dp"
+        android:layout_height="185dp"
+        android:src="@drawable/zapatosnikehombre"
+        tools:layout_editor_absoluteY="40dp"
+        android:layout_below="@id/precio3"/>
+
+    <TextView
+        android:id="@+id/nombre4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text= "@string/nombre4"
+        android:layout_below="@id/imageView5"/>
+    <TextView
+        android:id="@+id/precio4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text= "@string/precio4"
+        android:layout_below="@id/nombre4"/>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="173dp"
+        android:layout_height="201dp"
+        android:src="@drawable/camisetahm"
+        tools:layout_editor_absoluteX="229dp"
+        tools:layout_editor_absoluteY="294dp"
+        android:layout_below="@id/precio4"/>
+
+    <TextView
+        android:id="@+id/nombre5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text= "@string/nombre5"
+        android:layout_below="@id/imageView6"/>
+    <TextView
+        android:id="@+id/precio5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text= "@string/precio5"
+        android:layout_below="@id/nombre5"/>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="181dp"
+        android:layout_height="211dp"
+        android:src="@drawable/sudaderahombre"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="504dp"
+        android:layout_below="@id/precio5"/>
+
+        <Button
+            android:id="@+id/btn_regresar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView7"
+            android:layout_marginTop="16dp"
+            android:onClick="regresar"
+            android:text="@string/btn_regresar"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

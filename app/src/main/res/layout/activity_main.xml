@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/categoria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginTop="12dp"
+        android:text="@string/categoria"
+        />
+
+    <Button
+        android:id="@+id/btn_hombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/categoria"
+        android:layout_marginTop="16dp"
+        android:onClick="info_Hombre"
+        android:text="@string/btn_hombre"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_mujer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_hombre"
+        android:layout_marginTop="16dp"
+        android:onClick="info_Mujer"
+        android:text="@string/btn_mujer"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_niño"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_mujer"
+        android:layout_marginTop="16dp"
+        android:onClick="info_Niño"
+        android:text="@string/btn_niño"
+        android:textSize="18sp" />
+
+</RelativeLayout>
